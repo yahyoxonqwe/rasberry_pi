@@ -9,7 +9,7 @@ import cv2
 
 
 
-model_path = 'yolov8n_saved_model/yolov8n_float32.tflite'
+model_path = 'yolov8n_float32.tflite'
 
 CLASSES = [ 'person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus', 'train', 'truck', 'boat', 'traffic light',
             'fire hydrant', 'stop sign', 'parking meter', 'bench', 'bird', 'cat', 'dog', 'horse', 'sheep', 'cow',
